@@ -51,4 +51,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (assign, nonatomic) NSTimeInterval StartTime;
+
+@property (assign, nonatomic) NSTimeInterval EndTime;
+
+
 @end

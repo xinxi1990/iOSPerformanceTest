@@ -7,7 +7,7 @@ target "UICatalog" do
   
   xcodeproj 'UICatalog.xcodeproj'
   pod 'YYKit'
-  # YY解析json的库
+  pod 'Aspects'
 end
 
 

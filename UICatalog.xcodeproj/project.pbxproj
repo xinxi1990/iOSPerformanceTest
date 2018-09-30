@@ -291,8 +291,6 @@
 				5356823618F3656900BAAD62 /* Sources */,
 				5356823718F3656900BAAD62 /* Frameworks */,
 				5356823818F3656900BAAD62 /* Resources */,
-				7CB4301E1544D222C5D47A32 /* [CP] Embed Pods Frameworks */,
-				8238FE93CBD828190F6B4FCB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -351,36 +349,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7CB4301E1544D222C5D47A32 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICatalog/Pods-UICatalog-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8238FE93CBD828190F6B4FCB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICatalog/Pods-UICatalog-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B8CC9C5A0A674B92CE1E548A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -573,7 +541,7 @@
 				GCC_PREFIX_HEADER = "UICatalog/UICatalog-Prefix.pch";
 				INFOPLIST_FILE = "UICatalog/UICatalog-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Demo.xinxi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Demo.xinxi1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -590,7 +558,7 @@
 				GCC_PREFIX_HEADER = "UICatalog/UICatalog-Prefix.pch";
 				INFOPLIST_FILE = "UICatalog/UICatalog-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Demo.xinxi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.Demo.xinxi1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
