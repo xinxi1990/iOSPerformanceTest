@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:sonar-project.properties">
+   </FileRef>
+   <FileRef
+      location = "group:run-sonar.sh">
+   </FileRef>
+   <FileRef
       location = "group:UICatalog.xcodeproj">
    </FileRef>
    <FileRef

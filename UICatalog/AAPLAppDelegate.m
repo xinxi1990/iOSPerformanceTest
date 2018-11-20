@@ -47,6 +47,7 @@
 
 #import "AAPLAppDelegate.h"
 #import "getperformance.h"
+#import "BLStopwatch.h"
 #import "Aspects.h"
 
 @implementation AAPLAppDelegate
@@ -55,37 +56,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [[getperformance new] performancethread];//获取性能数据
+    NSString * test = @"test";
+    [[BLStopwatch new] splitWithDescription:test];
     
     /**
      *  事件拦截
      *  拦截UIViewController的viewDidLoad方法
      */
-    [UIViewController aspect_hookSelector:@selector(viewDidLoad) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo){
-        NSLog(@"%@ 对象的viewDidLoad调用了",aspectInfo.instance);
-        self.StartTime = [[NSDate date] timeIntervalSince1970];
-        /**
-         *  添加我们要执行的代码，由于withOptions是AspectPositionAfter。
-         *  所以每个控制器的viewDidLoad触发都会执行下面的方法
-         */
-    } error:NULL];
-    
-    /**
-     *  事件拦截
-     *  拦截UIViewController的viewDidAppear方法
-     */
-    [UIViewController aspect_hookSelector:@selector(viewDidAppear:) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo){
-        NSLog(@"%@ 对象的viewDidAppear调用了",aspectInfo.instance);
-        self.EndTime = [[NSDate date] timeIntervalSince1970];
-        CGFloat rounded_up = round((self.EndTime-self.StartTime) * 1000);
-        NSLog(@"%@页面,页面加载耗时:%.2lf",aspectInfo.instance,rounded_up);
-        /**
-         *  添加我们要执行的代码，由于withOptions是AspectPositionAfter。
-         *  所以每个控制器的viewDidLoad触发都会执行下面的方法
-         */
-    } error:NULL];
-    
-    
-    
+//    [UIViewController aspect_hookSelector:@selector(viewDidLoad) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo){
+//        NSLog(@"%@ 对象的viewDidLoad调用了",aspectInfo.instance);
+//        self.StartTime = [[NSDate date] timeIntervalSince1970];
+//        /**
+//         *  添加我们要执行的代码，由于withOptions是AspectPositionAfter。
+//         *  所以每个控制器的viewDidLoad触发都会执行下面的方法
+//         */
+//    } error:NULL];
+//
+//    /**
+//     *  事件拦截
+//     *  拦截UIViewController的viewDidAppear方法
+//     */
+//    [UIViewController aspect_hookSelector:@selector(viewDidAppear:) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo){
+//        NSLog(@"%@ 对象的viewDidAppear调用了",aspectInfo.instance);
+//        self.EndTime = [[NSDate date] timeIntervalSince1970];
+//        CGFloat rounded_up = round((self.EndTime-self.StartTime) * 1000);
+//        NSLog(@"%@页面,页面加载耗时:%.2lf",aspectInfo.instance,rounded_up);
+//        /**
+//         *  添加我们要执行的代码，由于withOptions是AspectPositionAfter。
+//         *  所以每个控制器的viewDidLoad触发都会执行下面的方法
+//         */
+//    } error:NULL];
     return YES;
 }
 

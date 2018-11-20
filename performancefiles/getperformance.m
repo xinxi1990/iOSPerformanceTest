@@ -4,6 +4,8 @@
 //
 //  Created by xinxi on 2018/6/14.
 //  Copyright © 2018年 luojilab. All rights reserved.
+//  获取电池信息:
+//   https://icetime17.github.io/2015/04/15/2015-04/iOS-获取iOS设备的电量信息：Battery-Level/
 //
 
 
@@ -12,7 +14,8 @@
 
 #import "getperformance.h"
 #import "DDPerformanceModel.h"
-
+#import "IOPSKeys.h"
+#import "IOPowerSources.h"
 
 @interface getperformance ()
 @property (nonatomic, weak) UIViewController *vc;
@@ -117,6 +120,46 @@
     batterytostring = [NSString stringWithFormat:@"%0.1lf",[UIDevice currentDevice].batteryLevel * 100];
     return batterytostring;
 }
+
+
+
+
+//-(double) getBatteryLevel{
+//    // returns a blob of power source information in an opaque CFTypeRef
+//    CFTypeRef blob = IOPSCopyPowerSourcesInfo();
+//    // returns a CFArray of power source handles, each of type CFTypeRef
+//    CFArrayRef sources = IOPSCopyPowerSourcesList(blob);
+//    CFDictionaryRef pSource = NULL;
+//    const void *psValue;
+//    // returns the number of values currently in an array
+//    int numOfSources = CFArrayGetCount(sources);
+//    // error in CFArrayGetCount
+//    if (numOfSources == 0) {
+//        NSLog(@"Error in CFArrayGetCount");
+//        return -1.0f;
+//    }
+//    // calculating the remaining energy
+//    for (int i=0; i<numOfSources; i++) {
+//        // returns a CFDictionary with readable information about the specific power source
+//        pSource = IOPSGetPowerSourceDescription(blob, CFArrayGetValueAtIndex(sources, i));
+//        if (!pSource) {
+//            NSLog(@"Error in IOPSGetPowerSourceDescription");
+//            return -1.0f;
+//        }
+//        psValue = (CFStringRef) CFDictionaryGetValue(pSource, CFSTR(kIOPSNameKey));
+//        int curCapacity = 0;
+//        int maxCapacity = 0;
+//        double percentage;
+//        psValue = CFDictionaryGetValue(pSource, CFSTR(kIOPSCurrentCapacityKey));
+//        CFNumberGetValue((CFNumberRef)psValue, kCFNumberSInt32Type, &curCapacity);
+//        psValue = CFDictionaryGetValue(pSource, CFSTR(kIOPSMaxCapacityKey));
+//        CFNumberGetValue((CFNumberRef)psValue, kCFNumberSInt32Type, &maxCapacity);
+//        percentage = ((double) curCapacity / (double) maxCapacity * 100.0f);
+//        NSLog(@"curCapacity : %d / maxCapacity: %d , percentage: %.1f ", curCapacity, maxCapacity, percentage);
+//    }
+//    return -1.0f;
+//}
+
 
 
 /**
@@ -295,7 +338,9 @@
         [self get_fps];
 
         while (true) {
-
+            
+            //[self getBatteryLevel];
+            
             DDPerformanceModel * model = [DDPerformanceModel new];
 
             model.time=[self get_time];
@@ -312,7 +357,7 @@
             
             NSString *json = [model modelToJSONString];
             
-//            printf(" getperformance    %s\r\n", [json UTF8String]);
+           //printf(" getperformance    %s\r\n", [json UTF8String]);
             NSLog(@"getperformance model  %@", json);
             
             sleep(5);

@@ -1,0 +1,23 @@
+Build settings from command line:
+    CODE_SIGN_IDENTITY = 
+    ONLY_ACTIVE_ARCH = NO
+    PROVISIONING_PROFILE = 
+
+=== BUILD TARGET YYKit OF PROJECT Pods WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET Aspects OF PROJECT Pods WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET Pods-UICatalog OF PROJECT Pods WITH CONFIGURATION Release ===
+
+Check dependencies
+
+=== BUILD TARGET UICatalog OF PROJECT UICatalog WITH CONFIGURATION Release ===
+
+Check dependencies
+Code Signing Warning: "UICatalog" isn't code signed but requires entitlements. It is not possible to add entitlements to a binary without signing it.
+Code Signing Error: Code signing is required for product type 'Application' in SDK 'iOS 11.2'
+

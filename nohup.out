@@ -1,0 +1,2383 @@
+Running from: /usr/local/Cellar/jenkins/2.141/libexec/jenkins.war
+webroot: $user.home/.jenkins
+十一月 18, 2018 10:54:22 上午 org.eclipse.jetty.util.log.Log initialized
+信息: Logging initialized @617ms to org.eclipse.jetty.util.log.JavaUtilLog
+十一月 18, 2018 10:54:23 上午 winstone.Logger logInternal
+信息: Beginning extraction from war file
+十一月 18, 2018 10:54:23 上午 org.eclipse.jetty.server.handler.ContextHandler setContextPath
+警告: Empty contextPath
+十一月 18, 2018 10:54:23 上午 org.eclipse.jetty.server.Server doStart
+信息: jetty-9.4.z-SNAPSHOT; built: 2018-06-05T18:24:03.829Z; git: d5fc0523cfa96bfebfbda19606cad384d772f04c; jvm 1.8.0_161-b12
+十一月 18, 2018 10:54:23 上午 org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+信息: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+十一月 18, 2018 10:54:23 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: DefaultSessionIdManager workerName=node0
+十一月 18, 2018 10:54:23 上午 org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+信息: No SessionScavenger set, using defaults
+十一月 18, 2018 10:54:23 上午 org.eclipse.jetty.server.session.HouseKeeper startScavenging
+信息: node0 Scavenging every 600000ms
+Jenkins home directory: /Users/xinxi/.jenkins found at: $user.home/.jenkins
+十一月 18, 2018 10:54:25 上午 org.eclipse.jetty.server.handler.ContextHandler doStart
+信息: Started w.@45385f75{Jenkins v2.141,/,file:///Users/xinxi/.jenkins/war/,AVAILABLE}{/Users/xinxi/.jenkins/war}
+十一月 18, 2018 10:54:25 上午 org.eclipse.jetty.server.AbstractConnector doStart
+信息: Started ServerConnector@3b6d844d{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+十一月 18, 2018 10:54:25 上午 org.eclipse.jetty.server.Server doStart
+信息: Started @3574ms
+十一月 18, 2018 10:54:25 上午 winstone.Logger logInternal
+信息: Winstone Servlet Engine v4.0 running: controlPort=disabled
+十一月 18, 2018 10:54:27 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 18, 2018 10:54:27 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 18, 2018 10:54:33 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 18, 2018 10:54:33 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 18, 2018 10:54:34 上午 hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+信息: Failed to instantiate optional component hudson.plugins.sonar.SonarPublisher$DescriptorImpl; skipping
+十一月 18, 2018 10:54:34 上午 hudson.ExtensionFinder$GuiceFinder$FaultTolerantScope$1 error
+信息: Failed to instantiate optional component hudson.plugins.build_timeout.operations.AbortAndRestartOperation$DescriptorImpl; skipping
+十一月 18, 2018 10:54:35 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 18, 2018 10:54:35 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 18, 2018 10:54:35 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Started Download metadata
+十一月 18, 2018 10:54:35 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@128c94b: display name [Root WebApplicationContext]; startup date [Sun Nov 18 10:54:35 CST 2018]; root of context hierarchy
+十一月 18, 2018 10:54:35 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@128c94b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@375fabbd
+十一月 18, 2018 10:54:35 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@375fabbd: defining beans [authenticationManager]; root of factory hierarchy
+十一月 18, 2018 10:54:36 上午 org.springframework.context.support.AbstractApplicationContext prepareRefresh
+信息: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@4992998c: display name [Root WebApplicationContext]; startup date [Sun Nov 18 10:54:36 CST 2018]; root of context hierarchy
+十一月 18, 2018 10:54:36 上午 org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+信息: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@4992998c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@71ad41d5
+十一月 18, 2018 10:54:36 上午 org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+信息: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@71ad41d5: defining beans [filter,legacy]; root of factory hierarchy
+十一月 18, 2018 10:54:36 上午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 18, 2018 10:54:36 上午 hudson.UDPBroadcastThread run
+信息: Cannot listen to UDP port 33,848, skipping: java.net.SocketException: Can't assign requested address
+十一月 18, 2018 10:54:36 上午 hudson.WebAppMain$3 run
+信息: Jenkins is fully up and running
+十一月 18, 2018 10:55:04 上午 hudson.model.UpdateSite updateData
+信息: Obtained the latest update center data file for UpdateSource default
+十一月 18, 2018 10:55:05 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+十一月 18, 2018 10:55:05 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+十一月 18, 2018 10:55:06 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+十一月 18, 2018 10:55:06 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.plugins.sonar.MsBuildSonarQubeRunnerInstaller
+十一月 18, 2018 10:55:06 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.plugins.sonar.SonarRunnerInstaller
+十一月 18, 2018 10:55:11 上午 hudson.model.DownloadService$Downloadable load
+信息: Obtained the updated data file for hudson.tools.JDKInstaller
+十一月 18, 2018 10:55:11 上午 hudson.model.AsyncPeriodicWork$1 run
+信息: Finished Download metadata. 35,846 ms
+十一月 18, 2018 11:46:13 上午 org.eclipse.jetty.server.handler.ContextHandler$Context log
+警告: Error while serving http://localhost:8081/descriptorByName/hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy/checkKey
+java.lang.reflect.InvocationTargetException
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:347)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:184)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:117)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:129)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.MetaClass$5.doDispatch(MetaClass.java:248)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:668)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:117)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:524)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Key should be 2 parts: algorithm and Base 64 encoded key value.
+	at hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy.parseKey(ManuallyProvidedKeyVerificationStrategy.java:98)
+	at hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy.access$000(ManuallyProvidedKeyVerificationStrategy.java:52)
+	at hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy$ManuallyProvidedKeyVerificationStrategyDescriptor.doCheckKey(ManuallyProvidedKeyVerificationStrategy.java:120)
+	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:627)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:343)
+	... 74 more
+
+十一月 18, 2018 11:46:28 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 11:47:13] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 151 ms
+十一月 18, 2018 11:47:21 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 11:47:21] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 124 ms
+[11/18/18 11:47:43] SSH Launch of 阿里云节点机 on 144.34.203.208 failed in 75,454 ms
+十一月 18, 2018 11:48:21 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 11:48:21] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 123 ms
+十一月 18, 2018 11:48:58 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+十一月 18, 2018 11:48:58 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 11:48:58] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 145 ms
+十一月 18, 2018 11:49:37 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 11:49:37] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 120 ms
+[11/18/18 11:50:13] SSH Launch of 本地节点 on 144.34.203.208 failed in 75,422 ms
+[11/18/18 11:51:12] SSH Launch of 本地节点 on 10.130.33.51 failed in 7 ms
+[11/18/18 11:51:13] SSH Launch of 本地节点 on 144.34.203.208 failed in 75,384 ms
+十一月 18, 2018 11:51:21 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 11:51:21] SSH Launch of 本地节点 on 10.130.33.51 failed in 21 ms
+十一月 18, 2018 11:51:26 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 11:51:26] SSH Launch of 本地节点 on 10.130.33.51 failed in 11 ms
+[11/18/18 11:51:28] SSH Launch of 本地节点 on 10.130.33.51 failed in 9 ms
+[11/18/18 11:51:29] SSH Launch of 本地节点 on 144.34.203.208 failed in 75,325 ms
+[11/18/18 11:51:49] SSH Launch of 本地节点 on 10.130.33.51 failed in 5 ms
+[11/18/18 11:52:44] SSH Launch of 本地节点 on 144.34.203.208 failed in 75,181 ms
+十一月 18, 2018 11:53:21 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 11:53:21] SSH Launch of 本地节点 on 10.130.33.51 failed in 3 ms
+十一月 18, 2018 11:53:24 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+十一月 18, 2018 11:53:24 上午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 11:53:24] SSH Launch of 本地节点 on 127.0.0.1 failed in 7 ms
+[11/18/18 11:53:24] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 132 ms
+[11/18/18 11:53:25] SSH Launch of 本地节点 on 127.0.0.1 failed in 17 ms
+[11/18/18 11:53:36] SSH Launch of 本地节点 on 127.0.0.1 failed in 3 ms
+[11/18/18 11:54:40] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 100 ms
+十一月 18, 2018 12:01:21 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 12:01:21] SSH Launch of 本地节点 on 127.0.0.1 failed in 7 ms
+[11/18/18 12:05:30] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 94 ms
+十一月 18, 2018 12:06:21 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 12:06:21] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 121 ms
+十一月 18, 2018 12:14:21 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 12:14:21] SSH Launch of 本地节点 on 127.0.0.1 failed in 7 ms
+十一月 18, 2018 12:20:21 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 12:20:21] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 117 ms
+[11/18/18 12:21:06] SSH Launch of 本地节点 on 144.34.203.208 failed in 75,381 ms
+十一月 18, 2018 12:31:21 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 12:32:36] SSH Launch of 本地节点 on 144.34.203.208 failed in 75,057 ms
+十一月 18, 2018 12:37:21 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 12:37:21] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 125 ms
+十一月 18, 2018 12:48:21 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 13:03:03] SSH Launch of 本地节点 on 144.34.203.208 failed in 882,562 ms
+十一月 18, 2018 1:38:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 13:38:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 121 ms
+[11/18/18 13:41:32] SSH Launch of 本地节点 on 127.0.0.1 failed in 5 ms
+[11/18/18 13:41:42] SSH Launch of 本地节点 on 127.0.0.1 failed in 5 ms
+[11/18/18 13:41:47] SSH Launch of 本地节点 on 127.0.0.1 failed in 3 ms
+[11/18/18 13:42:07] SSH Launch of 本地节点 on 10.130.33.51 failed in 10 ms
+十一月 18, 2018 1:49:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 13:49:31] SSH Launch of 本地节点 on 10.130.33.51 failed in 5 ms
+十一月 18, 2018 1:50:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 13:50:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 104 ms
+十一月 18, 2018 1:59:44 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 2
+[11/18/18 13:59:44] SSH Launch of 2 on 39.104.122.87 failed in 187 ms
+[11/18/18 13:59:48] SSH Launch of 2 on 39.104.122.87 failed in 167 ms
+十一月 18, 2018 2:00:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 2
+[11/18/18 14:00:32] SSH Launch of 2 on 39.104.122.87 failed in 166 ms
+十一月 18, 2018 2:02:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 2
+[11/18/18 14:02:32] SSH Launch of 2 on 39.104.122.87 failed in 177 ms
+十一月 18, 2018 2:04:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 2
+[11/18/18 14:04:32] SSH Launch of 2 on 39.104.122.87 failed in 157 ms
+十一月 18, 2018 2:06:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 2
+[11/18/18 14:06:32] SSH Launch of 2 on 39.104.122.87 failed in 170 ms
+十一月 18, 2018 2:07:24 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 14:07:24] SSH Launch of 本地节点 on 10.130.33.51 failed in 10 ms
+[11/18/18 14:07:25] SSH Launch of 2 on 39.104.122.87 failed in 156 ms
+十一月 18, 2018 2:08:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 14:08:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 141 ms
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: be10800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ........ .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: be10800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ........ .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 8f64800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .d...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 8f64800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .d...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 46a9800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     F....... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 46a9800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     F....... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 5845800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     XE...... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 5845800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     XE...... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: c044800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     .D...... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:13 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: c044800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     .D...... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: b87a800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     .z...... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: b87a800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     .z...... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 184f800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .O...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 184f800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .O...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 5490800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     T....... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 5490800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     T....... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 951e800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 951e800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 6072800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     `r...... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 2:16:14 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 6072800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     `r...... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 2:16:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 2
+[11/18/18 14:16:32] SSH Launch of 2 on 39.104.122.87 failed in 198 ms
+十一月 18, 2018 2:22:20 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 14:22:20] SSH Launch of aliyun on 39.104.122.87 failed in 134 ms
+[11/18/18 14:22:23] SSH Launch of aliyun on 39.104.122.87 failed in 113 ms
+十一月 18, 2018 2:22:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 14:22:32] SSH Launch of aliyun on 39.104.122.87 failed in 148 ms
+十一月 18, 2018 2:23:02 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 14:23:03] SSH Launch of aliyun on 39.104.122.87 failed in 159 ms
+[11/18/18 14:23:04] SSH Launch of aliyun on 39.104.122.87 failed in 142 ms
+十一月 18, 2018 2:23:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+十一月 18, 2018 2:23:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 14:23:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 4 ms
+[11/18/18 14:23:32] SSH Launch of aliyun on 39.104.122.87 failed in 144 ms
+十一月 18, 2018 2:24:15 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+十一月 18, 2018 2:24:15 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 14:24:15] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 146 ms
+[11/18/18 14:24:15] SSH Launch of aliyun on 39.104.122.87 failed in 171 ms
+[11/18/18 14:24:16] SSH Launch of 2 on 39.104.122.87 failed in 142 ms
+[11/18/18 14:24:33] SSH Launch of 2 on 39.104.122.87 failed in 123 ms
+[11/18/18 14:25:30] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 129 ms
+[11/18/18 14:26:25] SSH Launch of aliyun on 39.104.122.87 failed in 187 ms
+十一月 18, 2018 2:27:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 14:27:32] SSH Launch of aliyun on 39.104.122.87 failed in 162 ms
+[11/18/18 14:29:11] SSH Launch of aliyun on 39.104.122.87 failed in 132 ms
+十一月 18, 2018 2:30:01 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 14:30:01] SSH Launch of 本地节点 on 10.130.33.51 failed in 4 ms
+十一月 18, 2018 2:30:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 14:30:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 104 ms
+十一月 18, 2018 2:41:31 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 14:41:32] SSH Launch of aliyun on 39.104.122.87 failed in 138 ms
+十一月 18, 2018 2:48:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 14:48:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 4 ms
+十一月 18, 2018 2:50:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 14:50:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 136 ms
+十一月 18, 2018 3:00:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 15:00:32] SSH Launch of aliyun on 39.104.122.87 failed in 142 ms
+十一月 18, 2018 3:07:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 15:07:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 6 ms
+十一月 18, 2018 3:08:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 15:08:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 118 ms
+十一月 18, 2018 3:19:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 15:19:32] SSH Launch of aliyun on 39.104.122.87 failed in 196 ms
+十一月 18, 2018 3:24:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 15:24:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 6 ms
+十一月 18, 2018 3:26:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 15:26:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 114 ms
+十一月 18, 2018 3:39:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 15:39:32] SSH Launch of aliyun on 39.104.122.87 failed in 259 ms
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 586f800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     Xo...... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 586f800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     Xo...... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 1721800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .!...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 1721800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .!...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 2a38800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     *8...... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 2a38800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     *8...... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: b63c800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     .<...... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:16 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: b63c800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     .<...... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 57a4800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     W....... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 57a4800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     W....... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 9ccf800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     ........ .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 9ccf800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     ........ .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: d550800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     .P...... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: d550800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     .P...... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 95cb800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:17 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 95cb800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: f179800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     .y...... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: f179800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     .y...... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: b322800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     ."...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: b322800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     ."...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: ccc5800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: ccc5800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 769f800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     v....... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 769f800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     v....... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 332c800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     3,...... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:30 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 332c800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     3,...... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 67dc800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     g....... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 67dc800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     g....... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 72fb800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     r....... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 72fb800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     r....... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 8690800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 8690800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 5cd9800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     \....... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 5cd9800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     \....... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 6b91800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     k....... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:44:31 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 6b91800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     k....... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 02de800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ........ .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 02de800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ........ .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 2863800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     (c...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 2863800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     (c...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: b39d800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: b39d800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: f7e1800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: f7e1800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 613f800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     a?...... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:06 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 613f800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     a?...... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 15:45:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 461 ms
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 20ce800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ........ .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 20ce800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ........ .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 8044800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .D...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 8044800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .D...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: eeef800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: eeef800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 1ac7800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 1ac7800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: a520800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     ........ .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: a520800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     ........ .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 150f800000000002 0000000012444553 4b544f502d4d5245 4955413628332908     ........ .....DES KTOP-MRE IUA6(3).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283329085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (3)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:37 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 150f800000000002 0000000012444553 4b544f502d4d5245 4955413628332908     ........ .....DES KTOP-MRE IUA6(3).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283329085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (3)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 2c71800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ,q...... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 2c71800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ,q...... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 5113800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     Q....... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 5113800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     Q....... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 1994800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 1994800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: b5b6800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: b5b6800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 5bad800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     [....... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 5bad800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     [....... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: e32d800000000002 0000000012444553 4b544f502d4d5245 4955413628332908     .-...... .....DES KTOP-MRE IUA6(3).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283329085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (3)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 3:45:38 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: e32d800000000002 0000000012444553 4b544f502d4d5245 4955413628332908     .-...... .....DES KTOP-MRE IUA6(3).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283329085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (3)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 3:46:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 15:46:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 154 ms
+十一月 18, 2018 3:56:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 15:56:32] SSH Launch of aliyun on 39.104.122.87 failed in 150 ms
+十一月 18, 2018 4:02:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 16:02:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 85 ms
+十一月 18, 2018 4:04:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 16:04:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 132 ms
+十一月 18, 2018 4:13:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 16:13:32] SSH Launch of aliyun on 39.104.122.87 failed in 186 ms
+十一月 18, 2018 4:20:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 16:20:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 91 ms
+十一月 18, 2018 4:22:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 16:22:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 88 ms
+十一月 18, 2018 4:32:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 16:32:32] SSH Launch of aliyun on 39.104.122.87 failed in 141 ms
+十一月 18, 2018 4:39:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 16:39:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 78 ms
+十一月 18, 2018 4:41:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 16:41:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 197 ms
+十一月 18, 2018 4:52:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 16:52:32] SSH Launch of aliyun on 39.104.122.87 failed in 135 ms
+十一月 18, 2018 4:58:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 16:58:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 97 ms
+十一月 18, 2018 5:00:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 阿里云节点机
+[11/18/18 17:00:32] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 104 ms
+[11/18/18 17:01:13] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 138 ms
+[11/18/18 17:01:33] SSH Launch of 阿里云节点机 on 39.104.122.87 failed in 141 ms
+十一月 18, 2018 5:03:02 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 17:03:02] SSH Launch of aliyunnew on 39.104.122.87 failed in 193 ms
+[11/18/18 17:03:05] SSH Launch of aliyunnew on 39.104.122.87 failed in 195 ms
+十一月 18, 2018 5:03:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 17:03:32] SSH Launch of aliyunnew on 39.104.122.87 failed in 141 ms
+十一月 18, 2018 5:03:41 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+十一月 18, 2018 5:03:41 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 17:03:41] SSH Launch of aliyunnew on 39.104.122.87 failed in 173 ms
+[11/18/18 17:03:41] SSH Launch of aliyun on 39.104.122.87 failed in 174 ms
+[11/18/18 17:03:42] SSH Launch of aliyunnew on 39.104.122.87 failed in 116 ms
+十一月 18, 2018 5:05:00 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 17:05:00] SSH Launch of aliyunnew on 39.104.122.87 failed in 138 ms
+[11/18/18 17:05:02] SSH Launch of aliyunnew on 39.104.122.87 failed in 182 ms
+十一月 18, 2018 5:05:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 17:05:32] SSH Launch of aliyunnew on 39.104.122.87 failed in 176 ms
+[11/18/18 17:06:08] SSH Launch of aliyunnew on 39.104.122.87 failed in 185 ms
+[11/18/18 17:07:16] SSH Launch of aliyunnew on 39.104.122.87 failed in 157 ms
+十一月 18, 2018 5:07:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 17:07:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 85 ms
+十一月 18, 2018 5:13:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 17:13:32] SSH Launch of aliyunnew on 39.104.122.87 failed in 176 ms
+[11/18/18 17:13:58] SSH Launch of aliyunnew on 39.104.122.87 failed in 151 ms
+[11/18/18 17:14:03] SSH Launch of aliyunnew on 39.104.122.87 failed in 179 ms
+[11/18/18 17:14:20] SSH Launch of 本地节点 on 10.130.33.51 failed in 117 ms
+十一月 18, 2018 5:14:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 17:14:32] SSH Launch of aliyun on 39.104.122.87 failed in 151 ms
+[11/18/18 17:15:56] SSH Launch of aliyunnew on 39.104.122.87 failed in 190 ms
+十一月 18, 2018 5:18:01 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 17:18:01] SSH Launch of 本地节点 on 10.130.33.51 failed in 118 ms
+[11/18/18 17:18:02] SSH Launch of aliyunnew on 39.104.122.87 failed in 194 ms
+[11/18/18 17:18:20] SSH Launch of aliyunnew on 39.104.122.87 failed in 157 ms
+十一月 18, 2018 5:20:18 下午 hudson.model.UpdateSite$Plugin deploy
+信息: Adding dependent install of publish-over for plugin publish-over-ssh
+十一月 18, 2018 5:20:38 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of Infrastructure plugin for Publish Over X on behalf of anonymous
+十一月 18, 2018 5:20:40 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading Infrastructure plugin for Publish Over X
+十一月 18, 2018 5:20:40 下午 hudson.PluginManager dynamicLoad
+信息: Attempting to dynamic load /Users/xinxi/.jenkins/plugins/publish-over.jpi
+十一月 18, 2018 5:20:40 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 18, 2018 5:20:40 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 18, 2018 5:20:40 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 18, 2018 5:20:40 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 18, 2018 5:20:40 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 18, 2018 5:20:40 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 18, 2018 5:20:40 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 18, 2018 5:20:40 下午 hudson.PluginManager dynamicLoad
+信息: Plugin publish-over:0.22 dynamically installed
+十一月 18, 2018 5:20:40 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: Infrastructure plugin for Publish Over X
+十一月 18, 2018 5:20:40 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Starting the installation of Publish Over SSH on behalf of anonymous
+十一月 18, 2018 5:20:41 下午 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+信息: Downloading Publish Over SSH
+十一月 18, 2018 5:20:42 下午 hudson.PluginManager dynamicLoad
+信息: Attempting to dynamic load /Users/xinxi/.jenkins/plugins/publish-over-ssh.jpi
+十一月 18, 2018 5:20:42 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started initialization
+十一月 18, 2018 5:20:42 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Listed all plugins
+十一月 18, 2018 5:20:42 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Prepared all plugins
+十一月 18, 2018 5:20:42 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Started all plugins
+十一月 18, 2018 5:20:42 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Augmented all extensions
+十一月 18, 2018 5:20:42 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Loaded all jobs
+十一月 18, 2018 5:20:42 下午 jenkins.InitReactorRunner$1 onAttained
+信息: Completed initialization
+十一月 18, 2018 5:20:42 下午 hudson.PluginManager dynamicLoad
+信息: Plugin publish-over-ssh:1.20.1 dynamically installed
+十一月 18, 2018 5:20:42 下午 hudson.model.UpdateCenter$DownloadJob run
+信息: Installation successful: Publish Over SSH
+十一月 18, 2018 5:24:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 17:24:32] SSH Launch of aliyunnew on 39.104.122.87 failed in 156 ms
+十一月 18, 2018 5:27:06 下午 org.eclipse.jetty.server.handler.ContextHandler$Context log
+警告: Error while serving http://localhost:8081/computer/aliyun/descriptorByName/hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy/checkKey
+java.lang.reflect.InvocationTargetException
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:347)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:184)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:117)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:129)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.MetaClass$5.doDispatch(MetaClass.java:248)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.MetaClass$10.dispatch(MetaClass.java:374)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.MetaClass$3.doDispatch(MetaClass.java:209)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:668)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:117)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:524)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Key should be 2 parts: algorithm and Base 64 encoded key value.
+	at hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy.parseKey(ManuallyProvidedKeyVerificationStrategy.java:98)
+	at hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy.access$000(ManuallyProvidedKeyVerificationStrategy.java:52)
+	at hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy$ManuallyProvidedKeyVerificationStrategyDescriptor.doCheckKey(ManuallyProvidedKeyVerificationStrategy.java:120)
+	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:627)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:343)
+	... 81 more
+
+十一月 18, 2018 5:28:09 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 17:28:09] SSH Launch of aliyun on 39.104.122.87 failed in 112 ms
+[11/18/18 17:28:11] SSH Launch of aliyun on 39.104.122.87 failed in 88 ms
+[11/18/18 17:28:25] SSH Launch of aliyun on 39.104.122.87 failed in 90 ms
+十一月 18, 2018 5:28:54 下午 org.eclipse.jetty.server.handler.ContextHandler$Context log
+警告: Error while serving http://localhost:8081/computer/aliyunnew/descriptorByName/hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy/checkKey
+java.lang.reflect.InvocationTargetException
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:347)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:184)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:117)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:129)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.MetaClass$5.doDispatch(MetaClass.java:248)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.MetaClass$10.dispatch(MetaClass.java:374)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.MetaClass$3.doDispatch(MetaClass.java:209)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:668)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:117)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:142)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:524)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:762)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:680)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Key should be 2 parts: algorithm and Base 64 encoded key value.
+	at hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy.parseKey(ManuallyProvidedKeyVerificationStrategy.java:98)
+	at hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy.access$000(ManuallyProvidedKeyVerificationStrategy.java:52)
+	at hudson.plugins.sshslaves.verifiers.ManuallyProvidedKeyVerificationStrategy$ManuallyProvidedKeyVerificationStrategyDescriptor.doCheckKey(ManuallyProvidedKeyVerificationStrategy.java:120)
+	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:627)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:343)
+	... 81 more
+
+[11/18/18 17:29:04] SSH Launch of aliyunnew on 39.104.122.87 failed in 91 ms
+[11/18/18 17:29:10] SSH Launch of aliyunnew on 39.104.122.87 failed in 109 ms
+十一月 18, 2018 5:30:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 17:30:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 80 ms
+[11/18/18 17:33:13] SSH Launch of aliyunnew on 39.104.122.87 failed in 149 ms
+[11/18/18 17:34:31] SSH Launch of aliyunnew on 39.104.122.87 failed in 171 ms
+十一月 18, 2018 5:35:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 17:35:32] SSH Launch of aliyunnew on 39.104.122.87 failed in 161 ms
+十一月 18, 2018 5:39:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 17:39:32] SSH Launch of aliyun on 39.104.122.87 failed in 139 ms
+十一月 18, 2018 5:45:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 17:45:32] SSH Launch of 本地节点 on 10.130.33.51 failed in 110 ms
+十一月 18, 2018 5:52:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 17:52:32] SSH Launch of aliyunnew on 39.104.122.87 failed in 186 ms
+十一月 18, 2018 5:55:32 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 17:55:32] SSH Launch of aliyun on 39.104.122.87 failed in 110 ms
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 9212800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ........ .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 9212800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     ........ .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 1d79800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .y...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 1d79800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .y...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: a1ff800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: a1ff800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     ........ .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: a644800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     .D...... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: a644800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     .D...... .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 65e0800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     e....... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:09 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: 65e0800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     e....... .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x15a
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 38d7800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     8....... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=348, id=0x0, flags=0x8000:r]
+   0: 38d7800000000002 000000000f444553 4b544f502d4d5245 49554136275f7b34     8....... .....DES KTOP-MRE IUA6'_{4
+  20: 633463343534342d 303033352d353631 302d383033352d62 3263303466333134     c4c4544- 0035-561 0-8035-b 2c04f314
+  40: 6533327d075f7373 68737663045f7463 70056c6f63616c00 00ff00010f444553     e32}._ss hsvc._tc p.local. .....DES
+  60: 4b544f502d4d5245 49554136275f7b34 633463343534342d 303033352d353631     KTOP-MRE IUA6'_{4 c4c4544- 0035-561
+  80: 302d383033352d62 3263303466333134 6533327d075f7373 68737663045f7463     0-8035-b 2c04f314 e32}._ss hsvc._tc
+  a0: 70056c6f63616c00 0021000100000078 001d000000000016 0f4445534b544f50     p.local. .!.....x ........ .DESKTOP
+  c0: 2d4d524549554136 056c6f63616c00c0 5c00100001000011 9400812b67756964     -MREIUA6 .local.. \....... ...+guid
+  e0: 3d7b346334633435 34342d303033352d 353631302d383033 352d623263303466     ={4c4c45 44-0035- 5610-803 5-b2c04f
+ 100: 3331346533327d11 6d6f64656c3d5850 5320313320393336 3012617263686974     314e32}. model=XP S.13.936 0.archit
+ 120: 6563747572653d61 6d643634186f7376 657273696f6e3d31 302e302e31363239     ecture=a md64.osv ersion=1 0.0.1629
+ 140: 392e363636166f73 65646974696f6e3d 50726f6665737369 6f6e616c             9.666.os edition= Professi onal
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0x10a
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 012a800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .*...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=268, id=0x0, flags=0x8000:r]
+   0: 012a800000000002 000000000f444553 4b544f502d4d5245 49554136075f7373     .*...... .....DES KTOP-MRE IUA6._ss
+  20: 68737663045f7463 70056c6f63616c00 00ff00010f444553 4b544f502d4d5245     hsvc._tc p.local. .....DES KTOP-MRE
+  40: 49554136075f7373 68737663045f7463 70056c6f63616c00 0021000100000078     IUA6._ss hsvc._tc p.local. .!.....x
+  60: 001d000000000016 0f4445534b544f50 2d4d524549554136 056c6f63616c00c0     ........ .DESKTOP -MREIUA6 .local..
+  80: 3400100001000011 9400812b67756964 3d7b346334633435 34342d303033352d     4....... ...+guid ={4c4c45 44-0035-
+  a0: 353631302d383033 352d623263303466 3331346533327d11 6d6f64656c3d5850     5610-803 5-b2c04f 314e32}. model=XP
+  c0: 5320313320393336 3012617263686974 6563747572653d61 6d643634186f7376     S.13.936 0.archit ecture=a md64.osv
+  e0: 657273696f6e3d31 302e302e31363239 392e363636166f73 65646974696f6e3d     ersion=1 0.0.1629 9.666.os edition=
+ 100: 50726f6665737369 6f6e616c                                               Professi onal
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xbf
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 58b4800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     X....... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=193, id=0x0, flags=0x8000:r]
+   0: 58b4800000000002 000000000f444553 4b544f502d4d5245 49554136085f6469     X....... .....DES KTOP-MRE IUA6._di
+  20: 73706c6179045f74 6370056c6f63616c 0000ff00010f4445 534b544f502d4d52     splay._t cp.local ......DE SKTOP-MR
+  40: 4549554136085f64 6973706c6179045f 746370056c6f6361 6c00002100010000     EIUA6._d isplay._ tcp.loca l..!....
+  60: 0078001d00000000 1c520f4445534b54 4f502d4d52454955 4136056c6f63616c     .x...... .R.DESKT OP-MREIU A6.local
+  80: 00c0350010000100 001194003433636f 6e7461696e65725f 69643d7b38454133     ..5..... ....43co ntainer_ id={8EA3
+  a0: 343335412d313246 312d344344442d41 4646312d41383938 3334433333383533     435A-12F 1-4CDD-A FF1-A898 34C33853
+  c0: 7d                                                                      }
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: e9de800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: e9de800000000002 0000000012444553 4b544f502d4d5245 4955413628312908     ........ .....DES KTOP-MRE IUA6(1).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283129085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (1)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming$MessageInputStream readName
+严重: bad domain name: possible circular name detected. Bad offset: 0xffffffff at 0xc5
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordType typeForIndex
+严重: Could not find record type for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record type. domain: 
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: e009800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     ........ .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.constants.DNSRecordClass classForIndex
+警告: Could not find record class for index: -1
+十一月 18, 2018 6:01:10 下午 javax.jmdns.impl.DNSIncoming readAnswer
+严重: Could not find record class. domain:  type: TYPE_IGNORE index 0
+dns[response,10.130.32.25:5353, length=199, id=0x0, flags=0x8000:r]
+   0: e009800000000002 0000000012444553 4b544f502d4d5245 4955413628322908     ........ .....DES KTOP-MRE IUA6(2).
+  20: 5f646973706c6179 045f746370056c6f 63616c0000ff0001 124445534b544f50     _display ._tcp.lo cal..... .DESKTOP
+  40: 2d4d524549554136 283229085f646973 706c6179045f7463 70056c6f63616c00     -MREIUA6 (2)._dis play._tc p.local.
+  60: 0021000100000078 001d000000001c52 0f4445534b544f50 2d4d524549554136     .!.....x .......R .DESKTOP -MREIUA6
+  80: 056c6f63616c00c0 3800100001000011 94003433636f6e74 61696e65725f6964     .local.. 8....... ..43cont ainer_id
+  a0: 3d7b384541333433 35412d313246312d 344344442d414646 312d413839383334     ={8EA343 5A-12F1- 4CDD-AFF 1-A89834
+  c0: 4333333835337d                                                          C33853}
+
+十一月 18, 2018 6:02:04 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 18:02:04] SSH Launch of 本地节点 on 10.130.33.51 failed in 133 ms
+十一月 18, 2018 9:46:03 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 21:46:05] SSH Launch of aliyunnew on 39.104.122.87 failed in 1,723 ms
+十一月 18, 2018 9:52:03 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 21:52:03] SSH Launch of aliyun on 39.104.122.87 failed in 196 ms
+十一月 18, 2018 9:57:03 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 21:57:03] SSH Launch of 本地节点 on 10.130.33.51 failed in 68 ms
+十一月 18, 2018 10:04:03 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyunnew
+[11/18/18 22:04:03] SSH Launch of aliyunnew on 39.104.122.87 failed in 227 ms
+十一月 18, 2018 10:08:03 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect aliyun
+[11/18/18 22:08:03] SSH Launch of aliyun on 39.104.122.87 failed in 154 ms
+十一月 18, 2018 10:13:03 下午 hudson.slaves.SlaveComputer tryReconnect
+信息: Attempting to reconnect 本地节点
+[11/18/18 22:13:03] SSH Launch of 本地节点 on 10.130.33.51 failed in 85 ms
+十一月 18, 2018 10:21:55 下午 winstone.Logger logInternal
+信息: JVM is terminating. Shutting down Jetty
